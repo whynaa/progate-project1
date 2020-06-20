@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+a {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.container {
+    width: 100%;
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+header {
+    height: 65px;
+    width: 100%;
+    background-color: #1A237E;
+    position :fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.header-left {
+    float: left;
+}
+
+.logo {
+    width: 45px;
+    float: left;
+    margin-top: 10px;
+}
+
+.logo-txt {
+    float: left;
+    /* margin-top: 20px; */
+    display: block;
+    line-height: 65px;
+    padding: 0 5px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #E3F2FD;
+}
+
+.icon {
+    display: none;
+}
+
+.header-right {
+    float: right;
+    margin-right: -25px;
+}
+
+.header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: #E3F2FD;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+}
+
+.header-right a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+
+.top-wrapper {
+    padding: 100px 0 100px 0;
+    background-size: cover;
+    background-image: linear-gradient(to right bottom, #E8EAF6,#C5CAE9);
+    color: #5C6BC0;
+    text-align: left;
+}
+
+.top-txt {
+    display: inline-block;
+    margin: 10vh 0 0 5vw;
+}
+
+.top-txt h1{
+    font-size: 50px;
+}
+
+.btn {
+    padding: 12px 24px;
+    color: #E3F2FD;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+.detail {
+    background-color: #3F51B5;
+}
+
+.top-img{
+    margin-top: 3%;
+    margin-right: 10%;
+    margin-left: 13vw;
+    position: absolute;
+    display: inline-block;
+}
+.top-img img{
+    width: 44vw;
+    transition: width 1s;
+}
+.top-img img:hover{
+    width: 45vw;
+}
+.eat {
+    animation: float 3s ease-out infinite;
+}
