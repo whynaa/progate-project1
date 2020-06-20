@@ -1,0 +1,38 @@
+@media (max-width: 1000px) {
+    .top-txt h1{
+        font-size: 2.5em;
+    }
+}
+
+@media (max-width: 670px) {
+    .header-right {
+        display: none;      
+    }
+    
+    .icon  {
+        color: #E3F2FD;
+        float: right;
+        font-size: 25px;
+        line-height: 65px;
+        padding: 10px 0;
+        display: block;
+    }
+
+    .top-img {
+        display: none;
+    }
+
+    .top-txt h1{
+        font-size: 2.5em;
+    }
+    .top-txt a{
+        margin-left: 25px;
+        width: 90%;
+    }
+    .top-txt{
+        display: inline;
+        margin: 10vh 20vw;
+        text-align: center;
+    }
+
+}
