@@ -122,3 +122,8 @@ header {
 .eat {
     animation: float 3s ease-out infinite;
 }
+footer{
+    background: #b7bdeb;
+    height: 75px;
+    width: 100%;
+}
