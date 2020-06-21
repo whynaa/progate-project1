@@ -122,3 +122,19 @@ header {
 .eat {
     animation: float 3s ease-out infinite;
 }
+footer{
+    background: #b7bdeb;
+    height: 75px;
+    width: 100%;
+
+}
+footer img {
+    width: 45px;
+    height: 50%;
+}
+
+footer p {
+    font-size: 12px;
+    color: #1A237E;
+    margin-top: 0px;
+}
