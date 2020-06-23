@@ -34,5 +34,8 @@
         margin: 10vh 20vw;
         text-align: center;
     }
+    footer {
+    text-align: center;
+    }
 
 }
