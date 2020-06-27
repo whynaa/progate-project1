@@ -122,6 +122,28 @@ header {
 .eat {
     animation: float 3s ease-out infinite;
 }
+
+.about-wrapper {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 80px;
+    text-align: left;
+}
+
+.heading {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #5f5d60;
+    display: inline-block;
+}
+
+.heading-txt {
+    display: inline-block;
+}
+
+.food {
+    width: 25%;
+}
+
 footer{
     background: #b7bdeb;
     height: 75px;
